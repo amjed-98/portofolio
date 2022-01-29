@@ -1,0 +1,10 @@
+.profilePic {
+  border-radius: 50%;
+  object-fit: cover;
+}
+@media (max-width: 767px) {
+  .container {
+    text-align: center;
+    margin-bottom: 2.5em;
+  }
+}
