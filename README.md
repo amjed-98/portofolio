@@ -2,10 +2,4 @@
 
 ### [Live Site](https://portofolio-zeta.vercel.app/)
 
-This is a code repository for the corresponding video tutorial. Your portfolio is your resume and your business card.
-
-In this video, we will create a full Personal Development Portfolio. We're going to use React and Next.js.
-
-Setup:
-
-- run `npm i && npm start`
+![Screenshot from 2022-01-29 17-05-24](https://user-images.githubusercontent.com/78312641/151666241-7234e014-5169-4ccc-9092-7eda9bfa08c9.png)
