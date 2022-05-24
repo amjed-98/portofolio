@@ -4,14 +4,7 @@ import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { SiCodewars } from 'react-icons/si';
 import { DiCssdeck } from 'react-icons/di';
 
-import {
-  Container,
-  Div1,
-  Div2,
-  Div3,
-  NavLink,
-  SocialIcons,
-} from './HeaderStyles';
+import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
 const Header = () => (
   <Container>
@@ -43,7 +36,7 @@ const Header = () => (
       <SocialIcons href='https://github.com/amjed-98'>
         <AiFillGithub title='Github' size='3rem' />
       </SocialIcons>
-      <SocialIcons href='https://www.linkedin.com/in/amjed-yehia-674565190/'>
+      <SocialIcons href='https://www.linkedin.com/in/amjad-yahia/'>
         <AiFillLinkedin title='linkedIn' size='3rem' />
       </SocialIcons>
       <SocialIcons href='https://www.codewars.com/users/amjed-98'>

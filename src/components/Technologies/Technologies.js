@@ -6,21 +6,15 @@ import {
   SectionText,
   SectionTitle,
 } from '../../styles/GlobalComponents';
-import {
-  List,
-  ListContainer,
-  ListItem,
-  ListParagraph,
-  ListTitle,
-} from './TechnologiesStyles';
+import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () => (
   <Section id='tech'>
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world. From
-      Back-end To Design
+      I've worked with a range a technologies in the web development world. From Back-end To
+      Design
     </SectionText>
     <List>
       <ListItem>
@@ -44,7 +38,7 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js, Express, MongoDb, Firebase,
+            Node.js, Express, MongoDb, Firebase, Postgres
           </ListParagraph>
         </ListContainer>
       </ListItem>

@@ -1,66 +1,31 @@
 export const projects = [
   {
-    title: 'SST-Scratch-note-app',
+    title: 'Quizzer-App',
     description: '',
-    image: 'images/note-app.png',
-    tags: ['React', 'AWS-Lambda & API Gateway', 'DynamoDB'],
-    source:
-      'https://github.com/amjed-98/Amjad-Kalbonyan-Elmarsos-internship/tree/main/serverless-stack-project/notes',
-    visit: 'https://d4k4pce9z63wt.cloudfront.net/',
+    image: '/images/quizzer.png',
+    tags: ['React-Router', 'TypeScript', 'Express.js', 'Material-UI'],
+    source: 'https://github.com/amjed-98/Quizzer-App',
+    visit: 'https://quizzer-g11.herokuapp.com/',
     id: 0,
   },
   {
-    title: 'Indecision-app',
+    title: 'Realtor-app',
     description: '',
-    image: 'images/indecesion.png',
-    tags: ['React', 'SCSS', 'Webpack'],
-    source:
-      'https://github.com/amjed-98/Amjad-Kalbonyan-Elmarsos-internship/tree/main/Udemy/React-Course-Project/indecision-app',
-    visit: 'https://indecision-app-vert.vercel.app/',
-    id: 1,
-  },
-  {
-    title: 'Budget-app',
-    description: '',
-    image: '/images/budget.png',
-    tags: ['React', 'Redux', 'React-Router', 'firebase'],
-    source:
-      'https://github.com/amjed-98/Amjad-Kalbonyan-Elmarsos-internship/tree/main/Udemy/React-Course-Project/expensify-app',
-    visit: 'https://expensify-apps.herokuapp.com/dashboard',
-    id: 2,
-  },
-  {
-    title: 'Chat-app',
-    description: '',
-    image: '/images/chat.png',
-    tags: ['NodeJS', 'Express', 'Socket.IO'],
-    source:
-      'https://github.com/amjed-98/Amjad-Kalbonyan-Elmarsos-internship/tree/main/Udemy/The%20Complete%20Node.js%20Developer%20Course/chat-app',
-    visit: 'https://what-up-app.herokuapp.com/',
-    id: 3,
-  },
-  {
-    title: 'Task-manager-api',
-    description: '',
-    image: 'images/task.png',
-    tags: ['NodeJS', 'Express', 'RestAPI', 'MongoDB'],
-    source:
-      'https://github.com/amjed-98/Amjad-Kalbonyan-Elmarsos-internship/tree/main/Udemy/The%20Complete%20Node.js%20Developer%20Course/Task-manager-api',
-    visit: '/',
-    id: 4,
-  },
-
-  {
-    title: 'Weather-WebApp',
-    description: '',
-    image: '/images/weather.png',
-    tags: ['Node.js', 'Express', 'weatherstack-API', 'mapbox-API'],
-    source:
-      'https://github.com/amjed-98/Amjad-Kalbonyan-Elmarsos-internship/tree/main/Udemy/The%20Complete%20Node.js%20Developer%20Course/Weather-app',
-    visit: 'https://amjad98-weather-app.herokuapp.com/',
+    image: '/images/realtor.png',
+    tags: ['NextJS', 'ReactJS', 'ChakraUI', 'RapidAPI'],
+    source: 'https://github.com/amjed-98/Jsm_realestate',
+    visit: 'https://jsm-realestate-tau.vercel.app',
     id: 5,
   },
-
+  {
+    title: 'Muslim-Guide',
+    description: '',
+    image: '/images/muslim-guide.png',
+    tags: ['React', 'React-Router', 'Context-api', 'CSS'],
+    source: 'https://github.com/amjed-98/muslim-guide',
+    visit: 'https://stellular-sprinkles-f255b3.netlify.app/',
+    id: 1,
+  },
   {
     title: 'Hangman-game',
     description: '',
@@ -87,19 +52,10 @@ export const projects = [
     image: '/images/note.png',
     tags: ['VanillaJS', 'HTML5', 'CSS3'],
     source:
-      'https://github.com/amjed-98/Amjad-Kalbonyan-Elmarsos-internship/tree/main/Udemy/The%20Modern%20JavaScript%20Bootcamp/hangman',
+      'https://github.com/amjed-98/Amjad-Kalbonyan-Elmarsos-internship/tree/main/Udemy/The%20Modern%20JavaScript%20Bootcamp/notes-app',
     visit: 'https://notes-app-dun.vercel.app/',
     id: 8,
   },
-  // {
-  //   title: 'Realtor-app',
-  //   description: '',
-  //   image: '/images/realtor.png',
-  //   tags: ['NextJS', 'ReactJS', 'ChakraUI', 'RapidAPI'],
-  //   source: 'https://github.com/amjed-98/Jsm_realestate',
-  //   visit: 'https://jsm-realestate-tau.vercel.app',
-  //   id: 5,
-  // },
 
   // {
   //   title: 'E-Commerce',
@@ -121,15 +77,15 @@ export const projects = [
   //   id: 7,
   // },
 
-  // {
-  //   title: 'Quiz-game',
-  //   description: '',
-  //   image: '/images/quiz.png',
-  //   tags: ['VanillaJS', 'HTML5', 'CSS3'],
-  //   source: 'https://github.com/amjed-98/Amjad-Yahia-Quiz-app',
-  //   visit: 'https://vercel.com/amjed-98/quiz-app',
-  //   id: 11,
-  // },
+  {
+    title: 'Quiz-game',
+    description: '',
+    image: '/images/quiz.png',
+    tags: ['VanillaJS', 'HTML5', 'CSS3'],
+    source: 'https://github.com/amjed-98/Amjad-Yahia-Quiz-app',
+    visit: 'https://vercel.com/amjed-98/quiz-app',
+    id: 11,
+  },
 ];
 
 export const TimeLineData = [

@@ -1,10 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import {
-  Section,
-  SectionText,
-  SectionTitle,
-} from '../../styles/GlobalComponents';
+import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 import { profilePic, container, downloadBtn } from './profile-pic.module.css';
@@ -33,11 +29,9 @@ const Hero = (props) => {
             My Personal Portfolio
           </SectionTitle>
 
-          <SectionText>
-            My name is Amjad Yahia and I'm a Web Developer
-          </SectionText>
+          <SectionText>My name is Amjad Yahia and I'm a Web Developer</SectionText>
 
-          <form method='get' action='/cv/AmjadYahia.pdf'>
+          <form method='get' action='/cv/amjad-yahia-frontend-cv.pdf'>
             <Button>View CV</Button>
           </form>
         </LeftSection>
