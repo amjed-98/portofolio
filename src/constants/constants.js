@@ -98,24 +98,24 @@ export const TimeLineData = [
   },
 
   {
-    year: 2021,
+    year: '9/2021',
     text1: 'joined ',
     org: 'Kalbonyan Elmarsos organization ',
     link: 'https://www.linkedin.com/company/%D9%83%D8%A7%D9%84%D8%A8%D9%86%D9%8A%D8%A7%D9%86-%D8%A7%D9%84%D9%85%D8%B1%D8%B5%D9%88%D8%B5/',
     text2: 'as a software engineer intern',
   },
   {
-    year: 2022,
+    year: `1/2022`,
     text1: 'joined ',
     org: 'Gaza Sky Geeks ',
     link: 'https://gazaskygeeks.com/',
     text2: 'organization as junior web developer',
   },
   {
-    year: 202 + '?',
-    text1: 'hoping for the best',
-    org: '',
-    link: '/',
-    text2: '',
+    year: `6/2022`,
+    text1: 'joined ',
+    text2: 'as a intern software developer',
+    org: 'Google for startups ',
+    link: 'https://www.linkedin.com/showcase/google-for-startups/',
   },
 ];
