@@ -9,6 +9,15 @@ export const projects = [
     id: 0,
   },
   {
+    title: 'Ngo-Template',
+    description: '',
+    image: '/images/Ngo-Template.png',
+    tags: ['React', 'TypeScript', "React-Query"],
+    source: 'https://github.com/amjed-98/Ngo-Template',
+    visit: 'https://ngo-template-five.vercel.app/',
+    id: 15,
+  },
+  {
     title: 'Realtor-app',
     description: '',
     image: '/images/realtor.png',
@@ -114,7 +123,7 @@ export const TimeLineData = [
   {
     year: `6/2022`,
     text1: 'joined ',
-    text2: 'as a intern software developer',
+    text2: 'as a intern software Engineer',
     org: 'Google for startups ',
     link: 'https://www.linkedin.com/showcase/google-for-startups/',
   },
