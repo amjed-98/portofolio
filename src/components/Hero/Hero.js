@@ -5,7 +5,12 @@ import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 import { profilePic, container, downloadBtn } from './profile-pic.module.css';
 import NavDropdown from '../NavDropDown';
-const Hero = (props) => {
+
+const Hero = () => {
+
+  const goToCv = () => {
+    window.open('https://docs.google.com/document/d/125FNF_TAwFl-O-C6NYqvwEti8IR3Sew-Yqqbz8fzFVI/edit?usp=sharing', '_blank');
+  }
   return (
     <>
       <Section row nopadding>
@@ -29,11 +34,9 @@ const Hero = (props) => {
             My Personal Portfolio
           </SectionTitle>
 
-          <SectionText>My name is Amjad Yahia and I'm a Web Developer</SectionText>
+          <SectionText>My name is Amjad Yahia and I'm a Frontend Engineer</SectionText>
 
-          <form method='get' action='/cv/amjad-yahia-frontend-cv.pdf'>
-            <Button>View CV</Button>
-          </form>
+            <Button onClick={goToCv}>View CV</Button>
         </LeftSection>
       </Section>
     </>
