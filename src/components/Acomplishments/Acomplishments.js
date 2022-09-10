@@ -18,7 +18,7 @@ const Acomplishments = () => {
       { number: followers, text: 'Github Followers' },
     ]);
   };
-  ~useEffect(() => {
+  useEffect(() => {
     getGitHubProfile();
   }, []);
 
