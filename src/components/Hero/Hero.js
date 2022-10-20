@@ -9,7 +9,7 @@ import NavDropdown from '../NavDropDown';
 const Hero = () => {
 
   const goToCv = () => {
-    window.open('https://docs.google.com/document/d/125FNF_TAwFl-O-C6NYqvwEti8IR3Sew-Yqqbz8fzFVI/edit?usp=sharing', '_blank');
+    window.open('https://app.enhancv.com/share/cb4c5283/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic', '_blank');
   }
   return (
     <>

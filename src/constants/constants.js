@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: 'Ngo-Template',
+    description: '',
+    image: '/images/Ngo-Template.png',
+    tags: ['React', 'TypeScript', 'React-Query'],
+    source: 'https://github.com/amjed-98/Ngo-Template',
+    visit: 'https://ngo-template-five.vercel.app/',
+    id: 15,
+  },
+  {
     title: 'Quizzer-App',
     description: '',
     image: '/images/quizzer.png',
@@ -7,15 +16,6 @@ export const projects = [
     source: 'https://github.com/amjed-98/Quizzer-App',
     visit: 'https://quizzer-g11.herokuapp.com/',
     id: 0,
-  },
-  {
-    title: 'Ngo-Template',
-    description: '',
-    image: '/images/Ngo-Template.png',
-    tags: ['React', 'TypeScript', "React-Query"],
-    source: 'https://github.com/amjed-98/Ngo-Template',
-    visit: 'https://ngo-template-five.vercel.app/',
-    id: 15,
   },
   {
     title: 'Realtor-app',
@@ -99,14 +99,6 @@ export const projects = [
 
 export const TimeLineData = [
   {
-    year: 2020,
-    text1: 'Graduated from ',
-    org: 'international university of Africa ',
-    link: 'https://www.linkedin.com/company/international-university-of-africa/',
-    text2: 'with a CS diploma',
-  },
-
-  {
     year: '9/2021',
     text1: 'joined ',
     org: 'Kalbonyan Elmarsos organization ',
@@ -126,5 +118,13 @@ export const TimeLineData = [
     text2: 'as a intern software Engineer',
     org: 'Google for startups ',
     link: 'https://www.linkedin.com/showcase/google-for-startups/',
+  },
+
+  {
+    year: `9/2022`,
+    text1: 'joined ',
+    text2: 'as a Front-end Engineer',
+    org: 'Lazzaro ',
+    link: 'https://lazzaro.io/en/',
   },
 ];
